@@ -18,4 +18,4 @@ spec:
       - name: java-app
         image: ragavmuthukumar/javaspringboot  # Java Spring Boot Docker image
         ports:
-        - containerPort: 8080                 # Match the Spring Boot server port
+        - containerPort: 8081                 # Match the Spring Boot server port
