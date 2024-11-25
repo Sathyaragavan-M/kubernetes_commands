@@ -10,5 +10,5 @@ spec:
   type: NodePort                     # Exposes the service on a NodePort
   ports:
     - port: 80                       # Port exposed by the Service
-      targetPort: 8080               # Port the application listens to inside the container
+      targetPort: 8081               # Port the application listens to inside the container
       nodePort: 30001                # NodePort exposed on the Kubernetes node
